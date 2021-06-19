@@ -29,7 +29,7 @@ body {
 .card .avatar {
   display: block;
   border-radius: 50%;
-  width: 72px;
+  width: 86px;
   margin: auto;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
 }
