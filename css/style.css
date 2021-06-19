@@ -47,7 +47,7 @@ body {
   border-radius: 50%;
   display: block;
   width: fit-content;
-  padding: 8px;
+  padding: 10px;
   margin: auto;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.24);
   display: flex;
