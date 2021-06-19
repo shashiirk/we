@@ -6,15 +6,17 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #f8f8f8 url(../images/bg.svg) no-repeat center center;
+  background: #f8f8f8 url(../images/bg.svg) no-repeat center center/cover;
   -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+  display: flex;
 }
 
 .root {
   max-width: 800px;
   width: 85%;
   padding: 14px;
-  margin: 24px auto 0;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -69,10 +71,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
-    background: #f8f8f8 url(../images/bg.svg) no-repeat center center/cover;
-  }
-
   .root {
     grid-template-columns: repeat(2, 1fr);
   }
