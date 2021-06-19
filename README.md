@@ -4,7 +4,7 @@ A simple website that shows profile cards of six friends.
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/122640218-e61e4e00-d11b-11eb-9521-7eebe1366bcf.jpg)
+![preview](https://user-images.githubusercontent.com/48406108/122640952-df91d580-d11f-11eb-939a-3583c66538a0.jpg)
 
 ## Live Demo
 
