@@ -8,4 +8,4 @@ A simple website that shows profile cards of six friends.
 
 ## Live Demo
 
-See it live [here](https://shashiirk.github.io/todos).
+See it live [here](https://shashiirk.github.io/we).
