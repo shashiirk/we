@@ -6,4 +6,87 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #f8f8f8 url(../images/bg.svg) no-repeat center center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.root {
+  max-width: 800px;
+  width: 85%;
+  padding: 14px;
+  margin: 24px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+
+  .avatar {
+    display: block;
+    border-radius: 50%;
+    width: 72px;
+    margin: auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+  }
+
+  .name {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 14px 0;
+  }
+
+  .icon {
+    background: #7f00ff;
+    background: -webkit-linear-gradient(to right, #ff00f5, #7f00ff);
+    background: linear-gradient(to right, #ff00f5, #7f00ff);
+    color: white;
+    border-radius: 50%;
+    display: block;
+    width: fit-content;
+    padding: 8px;
+    margin: auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (hover: hover) {
+      & {
+        transition: opacity 200ms ease-in-out;
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    @media (hover: none) {
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: #f8f8f8 url(../images/bg.svg) no-repeat center center / cover;
+  }
+
+  .root {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .root {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
 }
