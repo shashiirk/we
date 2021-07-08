@@ -48,6 +48,8 @@ body {
   color: white;
   border-radius: 50%;
   display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 10px;
   margin: auto;
